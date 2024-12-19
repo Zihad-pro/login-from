@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login from</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="bg-[#14addc] font-serif">
+    <div class="flex flex-col justify-center items-center h-screen">
+      <div class="text-white text-[30px] m-[10px]">
+        <h1 class="animate-bounce italic">Log in</h1>
+      </div>
+
+      <div class="flex flex-col">
+        <input
+          class="border-none outline-none m-[10px] h-[45px] rounded-xl px-[25px]"
+          type="text"
+          placeholder="user name"
+        />
+
+        <input
+          class="border-none outline-none m-[10px] h-[45px] rounded-xl px-[25px]"
+          type="text"
+          placeholder="password"
+        />
+        <input
+          class="bg-black border-none outline-none m-[20px] h-[45px] rounded-xl px-[25px] text-white animate-pulse"
+          type="submit"
+          value="Login"
+        />
+      </div>
+      <div class="inline-block w-[270px] flex justify-between">
+        <span>
+          <input type="checkbox" />
+          <labal for="checkbox">Remember Me</labal>
+        </span>
+        <span class="underline text-yellow-400">
+          <a href="#">Forget password</a>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
